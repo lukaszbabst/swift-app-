@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App1/ViewController.swift"
+            timestampString = "494365800.387751"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4"
+            endingLineNumber = "4">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App1.ViewController.__deallocating_deinit"
+                  moduleName = "App1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukaszbabst/Documents/Xcode/SWIFT/Projekty/Swift3/App1/App1/ViewController.swift"
+                  timestampString = "494365803.957226"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App1.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; App1.ViewController"
+                  moduleName = "App1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukaszbabst/Documents/Xcode/SWIFT/Projekty/Swift3/App1/App1/ViewController.swift"
+                  timestampString = "494365803.961044"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App1.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; App1.ViewController"
+                  moduleName = "App1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukaszbabst/Documents/Xcode/SWIFT/Projekty/Swift3/App1/App1/ViewController.swift"
+                  timestampString = "494365803.962699"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App1.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;App1.ViewController&gt;"
+                  moduleName = "App1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukaszbabst/Documents/Xcode/SWIFT/Projekty/Swift3/App1/App1/ViewController.swift"
+                  timestampString = "494365803.964837"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App1.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;App1.ViewController&gt;"
+                  moduleName = "App1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukaszbabst/Documents/Xcode/SWIFT/Projekty/Swift3/App1/App1/ViewController.swift"
+                  timestampString = "494365803.966542"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
