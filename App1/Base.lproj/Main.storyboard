@@ -29,16 +29,38 @@
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qva-SO-yci"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qbd-dx-xar">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="PMM-jf-hbI"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3In-fi-MSU">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="wJ4-41-qhR"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="3In-fi-MSU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="60d-Ta-rnj"/>
+                            <constraint firstItem="qbd-dx-xar" firstAttribute="top" secondItem="7tc-Tp-wZm" secondAttribute="bottom" constant="8" id="KGm-64-TBz"/>
                             <constraint firstItem="7tc-Tp-wZm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vvk-q0-Vuw"/>
                             <constraint firstItem="7tc-Tp-wZm" firstAttribute="top" secondItem="TVt-8p-1D3" secondAttribute="bottom" constant="14" id="WkV-zj-syv"/>
                             <constraint firstItem="TVt-8p-1D3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="45" id="glV-GJ-mLR"/>
                             <constraint firstItem="TVt-8p-1D3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jzd-HJ-k93"/>
+                            <constraint firstItem="qbd-dx-xar" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sLa-fq-0TI"/>
+                            <constraint firstItem="3In-fi-MSU" firstAttribute="top" secondItem="7tc-Tp-wZm" secondAttribute="bottom" constant="52" id="wFi-Sd-rYv"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="text1" destination="qbd-dx-xar" id="zNq-tG-4nJ"/>
+                        <outlet property="text2" destination="3In-fi-MSU" id="bol-Y5-rcW"/>
                         <outlet property="theLabel" destination="TVt-8p-1D3" id="CTd-pB-7oA"/>
                     </connections>
                 </viewController>
